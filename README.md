@@ -81,10 +81,10 @@ with upstudy_py_sdk.ApiClient(configuration) as api_client:
 
     try:
         api_response = api_instance.v1_brief_answers_post(data)
-        print("The response of DefaultApi->v1_brief_answers_post:\n")
+        print("The response of ThothEngineModuleApi->v1_brief_answers_post:\n")
         pprint(api_response)
     except ApiException as e:
-        print("Exception when calling DefaultApi->v1_brief_answers_post: %s\n" % e)
+        print("Exception when calling ThothEngineModuleApi->v1_brief_answers_post: %s\n" % e)
 
 ```
 
